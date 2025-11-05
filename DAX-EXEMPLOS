@@ -1,0 +1,113 @@
+DAX-EXEMPLOS
+
+---------------------------
+Media Qtde Dias do Segmento = 
+-- Seleciona o CD atual
+VAR vCD      = SELECTEDVALUE(F_PEDIDO[CD_CENTRO_DECISAO])
+VAR vCNPJ    = SELECTEDVALUE(F_PEDIDO[CD_CNPJ_CPF])
+VAR vProduto = SELECTEDVALUE(F_PEDIDO[PRODUTO])
+--
+VAR vSgt    = SELECTEDVALUE(F_PEDIDO[segmento]) 
+VAR vAnoMes = SELECTEDVALUE(F_PEDIDO[ANOMES])
+--------------------------------------------------------
+
+VAR vMediaFull = 
+    AVERAGEX(F_PEDIDO,      
+             F_PEDIDO[qtd_dias]
+    )
+
+
+VAR vMediaSegto = 
+CALCULATE(
+    AVERAGEX(F_PEDIDO,      
+             F_PEDIDO[qtd_dias]
+    )
+    ,filter(all(F_PEDIDO),F_PEDIDO[segmento]=vsgt && F_PEDIDO[ANOMES]= vAnoMes)
+)
+
+VAR vMediaSegtoProduto = 
+CALCULATE(
+    AVERAGEX(F_PEDIDO,      
+             F_PEDIDO[qtd_dias]
+    )
+    ,filter(all(F_PEDIDO),F_PEDIDO[segmento]=vsgt && F_PEDIDO[ANOMES]= vAnoMes && F_PEDIDO[PRODUTO]= vProduto)
+)
+/*
+VAR vMediaSegtoProdutoCNPJ = 
+CALCULATE(
+    AVERAGEX(F_PEDIDO,      
+             F_PEDIDO[qtd_dias]
+    )
+    ,filter(all(F_PEDIDO),F_PEDIDO[segmento]=vsgt && F_PEDIDO[ANOMES]= vAnoMes && F_PEDIDO[PRODUTO]= vProduto && F_PEDIDO[CD_CNPJ_CPF])
+)
+*/
+
+VAR Resultado = 
+SWITCH(true(),
+              isblank(vCD)      = true(), vMediaFull,
+              isblank(vProduto) = true(), vMediaSegto,
+              --isblank(vCNPJ)    = true(), vMediaSegtoProdutoCNPJ,
+              vMediaSegtoProduto   
+)
+
+return Resultado
+---------------------------
+              vFILTRO     = "TRUETRUE", R_full,  2
+			  vFILTRO     = "TRUEFALSE", R_SEGTO, 1
+              vFILTRO     = "FALSEFALSE", R_CD,10
+			  vFILTRO     = "FALSETRUE", R_CD,10
+              0
+
+IF(
+        ReceitasDescontos_SEGTO > 0,
+        (ReceitasDescontos_SEGTO * 0.1125) + ReceitasDescontos_SEGTO,
+        IF(
+            ReceitasDescontos_SEGTO < 0,
+            (ReceitasDescontos_SEGTO * 0.0925 * -1) + ReceitasDescontos_SEGTO,
+            0
+        )
+    )			  
+			  
+			  
+
+---------------------------
+query athena Datas
+,date_diff('month',date_trunc('month',ano_mes),date_trunc('month',current_date)) 
+,date_trunc('month',current_date)
+,date_trunc('month',current_date)
+,date_add('month', -13, current_date) 
+
+
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
+---------------------------
