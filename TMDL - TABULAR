@@ -1,7 +1,18 @@
 TMDL - TABULAR MODEL DEFINITION LANGUAGE
 
 Editar em massa com o TMDL
-selecionar todas as ocorrências : ^.*xxx*\n?
+selecionar todas as ocorrências : ^.*xxx.*\n?
+exemplo : ^.*lineageTag:.*\n?
+
+<img width="672" height="111" alt="Image" src="https://github.com/user-attachments/assets/b67d6475-99b7-4515-b67d-5705808f5648" />
+
+<div align="center">
+<img src="https://private-user-images.githubusercontent.com/239230190/515241526-b67d6475-99b7-4515-b67d-5705808f5648.png" />
+</div>
+----------------------------
+
+
+----------------------------
 
 
 
