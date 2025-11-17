@@ -4,12 +4,41 @@ Editar em massa com o TMDL
 selecionar todas as ocorrências : ^.*xxx.*\n?
 exemplo : ^.*lineageTag:.*\n?
 
-<img width="672" height="111" alt="Image" src="https://github.com/user-attachments/assets/b67d6475-99b7-4515-b67d-5705808f5648" />
-
 <div align="center">
-<img src="https://private-user-images.githubusercontent.com/239230190/515241526-b67d6475-99b7-4515-b67d-5705808f5648.png" />
+<img width="672" height="111" alt="Image" src="https://github.com/user-attachments/assets/b67d6475-99b7-4515-b67d-5705808f5648" />
 </div>
+
+https://github.com/FabiodeCMendes/Power_BI/issues/1#issue-3633747687
+
 ----------------------------
+-- Calendario TMDL
+------------------
+createOrReplace
+
+	table dimCalendário1
+		
+		column Data
+			formatString: Short Date
+			summarizeBy: none
+			sourceColumn: [Date]
+
+			annotation SummarizationSetBy = Automatic
+			
+		column Ano = YEAR('dimCalendário'[Data])
+			formatString: 0
+			summarizeBy: sum
+
+			annotation SummarizationSetBy = Automatic
+
+		column Mês = MONTH('dimCalendário'[Data])
+			formatString: 0
+			summarizeBy: sum
+
+			annotation SummarizationSetBy = Automatic
+
+		partition dimCalendário = calculated
+			mode: import
+			source = CALENDARAUTO()
 
 
 ----------------------------
