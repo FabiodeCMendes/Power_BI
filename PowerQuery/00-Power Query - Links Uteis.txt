@@ -1,0 +1,19 @@
+Power Query - Links Uteis
+
+Combinar, Mesclar(Merge), Acrescentar(Append) (tabelas/Consultas)
+https://learn.microsoft.com/pt-br/training/modules/clean-data-power-bi/5-combine-tables
+https://learn.microsoft.com/en-us/training/modules/clean-data-power-bi/5-combine-tables
+
+
+Simplificar a estrutura de dados
+https://learn.microsoft.com/pt-br/training/modules/clean-data-power-bi/3-data-structure
+https://learn.microsoft.com/en-us/training/modules/clean-data-power-bi/3-data-structure
+
+
+Join
+Um Join é usado para combinar informações de diferentes fontes e integrar dados por meio da correspondência de colunas, que são consideradas chaves de join.
+
+Join Types
+
+
+
