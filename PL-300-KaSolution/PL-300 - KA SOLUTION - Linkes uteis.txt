@@ -1,0 +1,122 @@
+PL-300 - KA SOLUTION
+
+==============================================================================================================================
+
+ 💻 LINK - SALA VIRTUAL
+
+Link: https://kasolution.zoom.us/j/91486667336?pwd=bGFOEXHm09AjW6M1n0MaYMBF4HM21h.1
+
+Senha (se solicitada): 38300
+
+Ao entrar na sala, favor se identificar com NOME e SOBRENOME, para que sua presença seja validada e não tenha problema na emissão do certificado.
+
+ 
+
+📚 MATERIAL OFICIAL
+
+A partir de agora, os materiais oficiais Microsoft são disponibilizados através do Microsoft Learn. Segue abaixo o link para acessar o material do seu curso.
+
+§  Link: https://learn.microsoft.com/training/courses/pl-300t00?WT.mc_id=ilt_partner_webpage_wwl&ocid=356989#study-guide
+
+
+ACESSO AO SISTEMA DE TREINAMENTO
+
+Para acessar e executar os laboratórios durante o treinamento, siga os passos abaixo.
+
+1)        Caso acesse de sua empresa, certifique-se de que o firewall não bloqueie o Remote Desktop Connection (Porta:12066), pois do contrário não conseguirá acessar os laboratórios.
+
+2)      Clicar no botão Start -> All Programs -> Accessories -> Remote Desktop Connection
+
+3)      No campo Computador, preencha: labs.kasolution.com.br:12066
+
+4)       Clicar no botão Conectar
+
+5)      Será solicitado um usuário e uma senha do Windows.
+
+6)      Utilizar as seguintes credenciais:
+
+                                                    i.      Usuário: Admin
+
+                                                  ii.      Senha: 0938300$0266 (sistema diferencia maiúsculas e minúsculas)
+
+
+==============================================================================================================================
+--------
+aula1 : 
+--------
+
+SECRETARIA@KASOLUTION.COM.BR
+
+https://learn.microsoft.com/pt-br/training/courses/pl-300t00
+
+https://powerbi.microsoft.com/
+
+https://learn.microsoft.com/pt-br/dax/dax-function-reference
+
+https://learn.microsoft.com/pt-br/powerquery-m/
+
+RLS (segurança)
+
+laboratórios 
+https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst
+
+https://266737af5b-my.sharepoint.com/personal/contato_corp360_com_br/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcontato%5Fcorp360%5Fcom%5Fbr%2FDocuments%2F%5F2026%2FServi%C3%A7os%20Corp360%2FAo%20Vivo%2FKA%2F2026%5F02%5F09%20a%2013%5F03%20%2D%20PL%2D300%2FAlunos&ga=1
+
+
+Paulo Tácio 
+WhatsApp (11) 97997-7177
+E-mail: Paulotacio@hotmail.com
+
+Descobrir a análise de dados
+https://learn.microsoft.com/pt-br/training/modules/data-analytics-microsoft/
+
+Começar a criar com o Microsoft Power BI
+https://learn.microsoft.com/training/modules/get-started-with-power-bi/
+
+Introdução à análise de ponta a ponta usando o Microsoft Fabric
+https://aka.ms/fabric-intro-ptb
+
+
+https://learn.microsoft.com/pt-br/training/modules/get-data/
+
+
+avaliação de conhecimento prévio
+Guia de estudo para o Exame PL-300: Analista de dados do Microsoft Power BI | Microsoft Learn
+https://learn.microsoft.com/pt-br/credentials/certifications/exams/pl-300/practice/assessment?assessment-type=practice&assessmentId=48
+
+==============================================================================================================================
+
+
+--------
+aula2 : 
+--------
+
+==============================================================================================================================
+
+
+==============================================================================================================================
+
+
+--------
+aula3 : 
+--------
+
+==============================================================================================================================
+==============================================================================================================================
+
+
+--------
+aula4 : 
+--------
+
+==============================================================================================================================
+==============================================================================================================================
+
+
+--------
+aula5 : 
+--------
+
+==============================================================================================================================
+
+
